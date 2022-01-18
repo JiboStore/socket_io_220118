@@ -13,6 +13,8 @@
     "socket.io-client": "4"
   },
   "scripts": {
+    "ngrok:server": "ngrok http 3001",
+    "ngrok:client": "ngrok http 3000",
     "start": "react-scripts start",
     "start-server": "node server.js",
     "build": "react-scripts build",
@@ -33,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ngrok": "^4.3.0"
   }
 }
